@@ -1,0 +1,16 @@
+2021-05-23 23:21:08.339 +06:00 [ERR] 2021-05-23 23:21:08.333200 ThreadID:1   (ERROR)   OracleDatabaseCreator.ExistsAsync() :  OracleException.Number: 1017
+2021-05-23 23:21:08.462 +06:00 [ERR] 2021-05-23 23:21:08.462595 ThreadID:1   (ERROR)   OracleDatabaseCreator.ExistsAsync() :  OracleException.Number: 1017
+2021-05-23 23:21:08.463 +06:00 [ERR] 2021-05-23 23:21:08.463930 ThreadID:1   (ERROR)   OracleDatabaseCreator.CreateAsync() :  Required user does not exists or invalid username/password provided
+2021-05-23 23:21:08.527 +06:00 [ERR] An error occured during database migration
+System.NotSupportedException: Required user does not exists or invalid username/password provided
+   at Oracle.EntityFrameworkCore.Storage.Internal.OracleDatabaseCreator.CreateAsync(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.Migrator.MigrateAsync(String targetMigration, CancellationToken cancellationToken)
+   at IdentityApp.Program.Main(String[] args) in C:\new\Project\Identity\IdentitySLN\IdentityApp\Program.cs:line 36
+2021-05-23 23:22:07.142 +06:00 [ERR] 2021-05-23 23:22:07.134824 ThreadID:1   (ERROR)   OracleDatabaseCreator.ExistsAsync() :  OracleException.Number: 1017
+2021-05-23 23:22:08.253 +06:00 [ERR] 2021-05-23 23:22:08.253687 ThreadID:1   (ERROR)   OracleDatabaseCreator.ExistsAsync() :  OracleException.Number: 1017
+2021-05-23 23:22:08.256 +06:00 [ERR] 2021-05-23 23:22:08.255579 ThreadID:1   (ERROR)   OracleDatabaseCreator.CreateAsync() :  Required user does not exists or invalid username/password provided
+2021-05-23 23:22:08.282 +06:00 [ERR] An error occured during database migration
+System.NotSupportedException: Required user does not exists or invalid username/password provided
+   at Oracle.EntityFrameworkCore.Storage.Internal.OracleDatabaseCreator.CreateAsync(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.Migrator.MigrateAsync(String targetMigration, CancellationToken cancellationToken)
+   at IdentityApp.Program.Main(String[] args) in C:\new\Project\Identity\IdentitySLN\IdentityApp\Program.cs:line 36
